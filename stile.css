@@ -107,6 +107,24 @@ p {
     width: 420px;
 }
 
+#wrap {
+    width: 750px;
+    height: 1500px;
+    padding: 0;
+    overflow: hidden;
+}
+
+#scaled-frame {
+    width: 1000px;
+    height: 2000px;
+    border: 0px;
+}
+
+#scaled-frame {
+    zoom: 0.75;
+}
+
+
 /* ------------------------------------------Split for Calculator-----------------------------------------------------*/
 .calc-body {
     width: 275px;
