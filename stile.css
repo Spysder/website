@@ -1,5 +1,5 @@
 html {
-    background-color: black;
+    background-color: #171717;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
 }
@@ -71,36 +71,6 @@ p {
     margin-left: 50%;
 }
 
-.elevation-2 {
-    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
-    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
-}
-
-.elevation-3 {
-    box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2),
-    0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12);
-}
-
-.elevation-4 {
-    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
-    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
-}
-
-.elevation-6 {
-    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
-    0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
-}
-
-.elevation-8 {
-    box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
-    0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
-}
-
-.elevation-16 {
-    box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.2),
-    0px 16px 24px 2px rgba(0, 0, 0, 0.14), 0px 6px 30px 5px rgba(0, 0, 0, 0.12);
-}
-
 .v-card {
     background: #181818;
     border-radius: 12px;
@@ -124,7 +94,113 @@ p {
     zoom: 0.75;
 }
 
+.card {
+    width: 690px;
+    height: 420px;
+    background-color: #242424;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0.1, 0.1, 0.1, 0.8);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center;
+}
 
+.card-left {
+    width: 150px;
+    height: 150px;
+    background-color: #242424;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0.1, 0.1, 0.1, 0.8);
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center;
+}
+
+.card-middle {
+    width: 150px;
+    height: 150px;
+    background-color: #242424;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0.1, 0.1, 0.1, 0.8);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center;
+}
+
+.card-right {
+    width: 150px;
+    height: 150px;
+    background-color: #242424;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0.1, 0.1, 0.1, 0.8);
+    position: fixed;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.hyperlink:link {
+    color: #3dcab5;
+    background-color: transparent;
+    text-decoration: none;
+}
+.hyperlink:visited {
+    color: #3dcab5;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.click-me {
+    text-align: center;
+    margin-bottom: -20px;
+    margin-top: -20px;
+
+}
+.click-me:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+.click-me:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.card-right2 {
+    width: 150px;
+    height: 150px;
+    background-color: #171717;
+
+    border-radius: 5px;
+    position: fixed;
+    top: 18%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center;
+}
 /* ------------------------------------------Split for Calculator-----------------------------------------------------*/
 .calc-body {
     width: 275px;
